@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
-    color: aliceblue;
+    color: oldlace;
+    background-color: rgb(51, 64, 64);
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }  
 p{
     font-size: 1.6rem auto;
@@ -22,20 +23,29 @@ form{
     justify-content: space-between;
 }
 input{
-    height: 30px;
-    width: 30%;
-    border-bottom-width: 2px;
+    width: 70%;
+    border: none;
+    border: 1px solid gray;
+    padding: 2%;
 }
 label{
-    font-weight: 400;
-    margin-bottom: 6px;
+    display: grid;
 }
 div{
-    text-align: center;
+    top:50%;
+    left:50%;
     word-spacing: 0.3rem;
-
+    color: black;
 }
 h3{
-    color: gold;
+    color: rgb(229, 197, 150);
     font-size: 0.9rem;
+}
+.sign-up{
+    margin: auto;
+    background-color: rgb(229, 197, 150);
+    width: 560px;
+    height: 820px;
+    border-radius: 3px;
+
 }
