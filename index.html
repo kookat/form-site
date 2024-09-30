@@ -9,44 +9,45 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div>
+        <span>
             <h1>Dure technologies</h1>
             <h3>An ISO 27001:2013 Certified Company</h3>
-        </div>
-        <br><br>
-        <div>
-            <p>Registration</p>
-        </div>
-        <form>
+        </span>
+        <br><br><p>Registration</p>
+        <form class="sign-up">
             <br>
             <div>
-                <label for="fullname">Full Name:</label>
-                <input id="fullname" name="fullname" required/>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required/>
+                <br>
+                <br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" required/>
             </div>
             <br>
             <div>
-                <label for="email">Email:</label>
+                <label for="email">Email:</label><br>
                 <input id="email" type="email" name="email" required/>
             </div>
             <br>
             <div>
-                <label for="tel">Tel:</label>
+                <label for="tel">Tel:</label><br>
                 <input id="tel" type="tel" name="tel"/>
             </div>
             <br>
             <div>
-                <label for="add">Address:</label>
+                <label for="add">Address:</label><br>
                 <input id="add" name="add"type="text" required/>
         
             </div>
             <br>
             <div>
-                <label for="pass">Password:</label>
+                <label for="pass">Password:</label><br>
                 <input id="pass" name="pass" type="password" required minlength="7" maxlength="12"/>
             </div>
             <br>
             <div>
-                <label for="confirm pass">Confirm Password:</label>
+                <label for="confirm pass">Confirm Password:</label><br>
                 <input id="confirm pass" name="confirm pass" type="password" required minlength="7" maxlength="12"/>
             </div>
             <br>
@@ -55,5 +56,5 @@
             </div>
             <br>
         </form>
-    </body>
+   </body>
 </html>
